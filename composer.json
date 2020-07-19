@@ -1,0 +1,28 @@
+{
+    "name": "awesomite/mock-finals",
+    "description": "Mocking final classes and methods",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "ext-uopz": "*",
+        "phpunit/phpunit": "^7.5 || ^8.5 || ^9.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartłomiej Krukowski",
+            "email": "bartlomiej@krukowski.me"
+        }
+    ],
+    "autoload": {
+        "files": ["src/autoload.php"],
+        "psr-4": {
+            "Awesomite\\MockFinals\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Awesomite\\MockFinals\\": "tests/"
+        }
+    }
+}
