@@ -16,6 +16,11 @@ composer require --dev awesomite/mock-finals
 * PHP ^7.1
 * [uopz](https://www.php.net/manual/en/book.uopz.php) (`pecl install uopz`)
 
+## Use cases
+
+In general, it's a bad practice to do so. However it may be helpful when you have to deal with legacy code or third party libraries.
+Please read [the following article](https://ocramius.github.io/blog/when-to-declare-classes-final/) to understand how to properly deal with `final` keyword in your code.
+
 ## Example
 
 
