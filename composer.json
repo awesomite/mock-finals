@@ -4,7 +4,9 @@
     "type": "library",
     "require": {
         "php": "^7.1",
-        "ext-uopz": "*",
+        "ext-uopz": "*"
+    },
+    "require-dev": {
         "phpunit/phpunit": "^7.5 || ^8.5 || ^9.2"
     },
     "license": "MIT",
